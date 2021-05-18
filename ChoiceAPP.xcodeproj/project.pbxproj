@@ -13,6 +13,10 @@
 		CE712895264FC37C00C54154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE712893264FC37C00C54154 /* Main.storyboard */; };
 		CE712897264FC37D00C54154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE712896264FC37D00C54154 /* Assets.xcassets */; };
 		CE71289A264FC37D00C54154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE712898264FC37D00C54154 /* LaunchScreen.storyboard */; };
+		CE7128A3264FC39B00C54154 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7128A2264FC39B00C54154 /* Data.swift */; };
+		CE7128A6264FD9C500C54154 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7128A5264FD9C500C54154 /* Button.swift */; };
+		CE7128A9264FF61E00C54154 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7128A8264FF61E00C54154 /* QuestionViewController.swift */; };
+		CE7128AC264FF63C00C54154 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7128AB264FF63C00C54154 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CE712896264FC37D00C54154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE712899264FC37D00C54154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE71289B264FC37D00C54154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7128A2264FC39B00C54154 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CE7128A5264FD9C500C54154 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CE7128A8264FF61E00C54154 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CE7128AB264FF63C00C54154 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				CE71288D264FC37C00C54154 /* AppDelegate.swift */,
 				CE71288F264FC37C00C54154 /* SceneDelegate.swift */,
 				CE712891264FC37C00C54154 /* ViewController.swift */,
+				CE7128A8264FF61E00C54154 /* QuestionViewController.swift */,
+				CE7128AB264FF63C00C54154 /* ScoreViewController.swift */,
 				CE712893264FC37C00C54154 /* Main.storyboard */,
+				CE7128A5264FD9C500C54154 /* Button.swift */,
+				CE7128A2264FC39B00C54154 /* Data.swift */,
 				CE712896264FC37D00C54154 /* Assets.xcassets */,
 				CE712898264FC37D00C54154 /* LaunchScreen.storyboard */,
 				CE71289B264FC37D00C54154 /* Info.plist */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7128AC264FF63C00C54154 /* ScoreViewController.swift in Sources */,
+				CE7128A6264FD9C500C54154 /* Button.swift in Sources */,
 				CE712892264FC37C00C54154 /* ViewController.swift in Sources */,
+				CE7128A9264FF61E00C54154 /* QuestionViewController.swift in Sources */,
 				CE71288E264FC37C00C54154 /* AppDelegate.swift in Sources */,
 				CE712890264FC37C00C54154 /* SceneDelegate.swift in Sources */,
+				CE7128A3264FC39B00C54154 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
